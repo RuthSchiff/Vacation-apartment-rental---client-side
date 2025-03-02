@@ -1,0 +1,37 @@
+.cards-grid {
+    margin-right: 20%;
+    margin-left: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* יוצר רווח אחיד בין הכרטיסים */
+    /* gap: 10px; רווח בין הכרטיסים */
+}
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between;  */
+    align-items: center;
+    background-color: #f9f9f9; 
+    border: 3px solid #6861e4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.card {
+    flex: 1 1 20%;  /* שלושה כרטיסים בשורה */
+    max-width: 300px; /* גובה מקסימלי לכרטיס */
+    margin-bottom: 20px;
+    border: 3px solid #6861e4;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #6861e4;
+    font-size: 1.2em;
+}
+

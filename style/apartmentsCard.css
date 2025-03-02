@@ -1,0 +1,75 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #f9f9f9; /* צבע רקע */
+    border: 3px solid #6861e4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* הצללה משופרת */
+}
+  .card {
+    margin-right: 80%;
+    /* width: 5px; */
+    height: 640px;
+    border: 3px solid #6861e4;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+    color: #6861e4; /* צבע טקסט לכותרת */
+    font-size: 1.2em; /* גודל טקסט */
+
+}
+
+
+.card-header {
+    text-align: center;
+}
+
+.card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-body {
+    text-align: center;
+    padding: 10px;
+}
+
+.card-body p {
+    margin: 5px 0;
+}
+
+.card-body p:first-child {
+    font-weight: bold;
+}
+
+.card-footer {
+    text-align: center;
+    padding: 10px;
+}
+.button{
+    background-color: #1c6088; /* כחול */
+    color: white;
+     border-radius: 4px;
+    /* color: #050567; */
+    border-color: rgb(203, 176, 19);
+}
+.apartment-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+
+

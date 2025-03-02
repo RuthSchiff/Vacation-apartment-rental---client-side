@@ -1,0 +1,51 @@
+
+.header {
+    color: #1c6088; /* כחול */
+    text-align: center;
+    font-weight: bold; /* הדגשה */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* זוהר */
+}
+
+
+.register-form {
+  
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.input-field {
+    border: 1px solid #FFD600; /* צהוב */
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 40%;
+}
+
+.submit-button {
+    background-color: #1c6088; /* כחול */
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.submit-button:hover {
+    background-color: #08294b; /* כחול כהה */
+}
+.label {
+    color: #1c6088; /* צבע כחול */
+    font-size: 18px; /* גודל כתב גדול יותר */
+    font-weight: bold; /* כתב מודגש */
+}
+/* Form.css */
+p {
+    text-align: center; /* Centers the text within the <p> element */
+    margin: 0; /* Removes default margin */
+    padding: 10px; /* Optional: Adds some padding for better spacing */
+    border: 1px solid #FFD600; /* צהוב */
+    border-radius: 4px;
+    padding: 10px;
+    margin-left: 30%;
+}
+
