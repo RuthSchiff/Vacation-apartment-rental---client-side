@@ -1,19 +1,13 @@
 import { useEffect, useState } from 'react'
 import '../componnents/api.css'
-// import { getAll } from '../api'
-// import { useSelector } from 'react-redux'
-// import { apartmentCars} from './apartmentCars'
-// import { Details } from './Details'
-// import { geApartments } from './api'
 import { getApartments } from '../api'
 import { ApartmentCars } from './apartmentCard'
 
 export const Home = () => {
 
     // הגדרת מערך ששולף את כל המאמרים מהסטור - useSelector
-    // const list = useSelector(x => x.article.list)
     const [list, setList] = useState([])
-    // const [select, setSelect] = useState()
+ 
 
     // הקומפוניטה תבצע קריאת שרת לשליפת כל המאמרים
     // תשמור ברידקס
@@ -27,12 +21,7 @@ export const Home = () => {
                 // מפעילה useDispatch - שמירה בסטור
                 setList(x.data)
             })
-        // .catch(err => {
-        //     console.log(err);
-        //     if(status == 404){
 
-        //     }
-        // })
     }, [])
 
   
